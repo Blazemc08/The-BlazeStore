@@ -1,0 +1,121 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+body {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= HEADER ================= */
+.header {
+  width: 100%;
+  padding: 16px;
+  background: #111;
+  border-bottom: 2px solid #ff0000;
+}
+
+.header h1 {
+  color: #ff0000;
+  font-size: 22px;
+}
+
+/* ================= INDEX PAGE ================= */
+.home-box {
+  width: 100%;
+  max-width: 520px;
+  margin: 20px auto;
+  padding: 16px;
+  background: #161616;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* ================= MENU PAGE ================= */
+.menu-container {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+}
+
+/* KIRI */
+.menu-left {
+  width: 45%;
+}
+
+.menu-btn {
+  display: block;
+  margin-bottom: 10px;
+  padding: 14px;
+  background: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* KANAN */
+.menu-right {
+  width: 55%;
+  background: #161616;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.menu-right h3 {
+  color: #ff0000;
+  margin-bottom: 6px;
+}
+
+.menu-right p {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* ================= PRODUK PAGE ================= */
+.product-list {
+  padding: 12px;
+}
+
+.card {
+  background: #161616;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.card h3 {
+  color: #ff0000;
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* BUTTON BELI / CEK */
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  background: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn:active {
+  background: #cc0000;
+}
